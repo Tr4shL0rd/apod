@@ -38,7 +38,6 @@ path = os.path.join(home,dir)
 imageName = f"apod_{today}.jpg"
 filename = os.path.join(path,imageName)
 
-#print(filename)
 urllib.request.urlretrieve(image, filename)
 print(f"saved to {filename}")
 
