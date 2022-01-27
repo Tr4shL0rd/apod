@@ -1,0 +1,4 @@
+__pycache__
+.env
+apod_*
+data.json

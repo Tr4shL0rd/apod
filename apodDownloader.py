@@ -45,4 +45,4 @@ filename = os.path.join(path,imageName)
 #downloads the image
 urllib.request.urlretrieve(image, filename)
 print(f"saved to {filename}")
-
+helper.setwallpaper(filename)
